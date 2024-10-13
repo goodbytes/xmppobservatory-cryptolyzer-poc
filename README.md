@@ -1,5 +1,5 @@
 # xmppobservatory-cryptolyzer-poc
-A Proof of Concept project proving [CryptoLyzer](https://gitlab.com/coroner/cryptolyzer)-based analysis of XMPP servers.
+A Proof of Concept project providing [CryptoLyzer](https://gitlab.com/coroner/cryptolyzer)-based analysis of XMPP servers.
 
 This project launches a webserver on port 8000. Based on data from a simple HTTP request, a CryptoLyzer's docker container is executed that analyzes the domain. Results are parsed through Pandoc to get basic HTML output.
  
